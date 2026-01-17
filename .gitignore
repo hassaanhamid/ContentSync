@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+.env
+*.log
+.DS_Store
+```
+
+### 1.2 Verify Your Files
+
+Your project should have:
+```
+ContentSyncPro/
+├── app.py
+├── requirements.txt
+├── .gitignore
+└── README.md (we'll create this)
