@@ -1,20 +1,24 @@
 # ContentSync
 
-AI-Powered Content-Image Alignment Analysis System
+An AI-powered web application that analyzes the semantic alignment between textual content and images. Built with Python, this tool utilizes OpenAI's CLIP (Contrastive Language-Image Pretraining) model to evaluate how cohesively an uploaded image matches a given article or text block.
 
-## About
-This is a project for a Machine Learning course that uses CLIP AI to evaluate how well images align with article content.
-
-## Developer
-**Hassaan Hamid Okarvi**  
-
-## How to Use
-1. Paste your article text
-2. Upload an image
-3. Click "Analyze" to get alignment score
+**Live Demo:** Try the application directly in your browser at [https://contentsync.streamlit.app/](https://contentsync.streamlit.app/).
 
 ## Tech Stack
-- Python
-- Streamlit
-- OpenAI CLIP
-- PyTorch
+
+* **Language:** Python
+* **Framework:** Streamlit
+* **Machine Learning:** PyTorch, OpenAI CLIP
+
+## Features
+
+* **Semantic Alignment Scoring:** Leverages CLIP's multimodal embeddings to calculate a similarity score between text and visual inputs.
+* **Interactive Web Interface:** A streamlined UI built with Streamlit allows users to easily paste text, upload an image, and instantly receive evaluation metrics.
+* **Real-Time Analysis:** Processes inputs dynamically through the ML pipeline to provide immediate feedback on visual and textual alignment.
+
+## How to Use the Web App
+
+1. Visit the live application at (https://contentsync.streamlit.app/).
+2. Paste your article or text block into the provided input field.
+3. Upload the image you want to evaluate.
+4. Click the analyze button to generate the semantic alignment score.
